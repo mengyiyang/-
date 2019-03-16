@@ -1,0 +1,248 @@
+.jd_layout {
+    width: 100%;
+    height: 2800px;
+    margin: 0 auto;
+    background-color: rgb(233, 231, 231);
+    max-width: 640px;
+    min-width: 320px;
+}
+
+
+.jd_search {
+    width: 100%;
+    height: 40px;
+    max-width: 640px;
+    position: fixed;
+    background-color: rgba(255, 165, 0, 0);
+    z-index: 999;
+}
+
+.logo {
+    width: 56px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: url("../images/jd-sprites.png");
+    background-size: 200px 200px;
+    background-position: 0px -108px;
+    /* background-color: #ccc; */
+}
+
+.login {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 40px;
+    color: #fff;
+
+}
+
+.searchBox {
+    /* width: 100%; */
+    height: 100%;
+    margin-left: 70px;
+    margin-right: 55px;
+}
+
+.searchBox input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+.searchBox::before {
+    content: "";
+    width: 27px;
+    height: 23px;
+    position: absolute;
+    background: url("../images/jd-sprites.png");
+    background-size: 200px 200px;
+    background-position: -56px -108px;
+    left: 75px;
+    top: 10px;
+    /* z-index: 3; */
+}
+
+.jd_banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.jd_bannerImg {
+    width: 1000%;
+    position: relative;
+}
+
+.jd_bannerImg>li {
+    /* width: 12.5%; */
+    width: 10%;
+    float: left;
+}
+
+.jd_bannerImg>li img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.jd_bannerPoint {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%)
+}
+
+.jd_bannerPoint>li {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255, 0.8);
+    float: left;
+    margin-left: 10px;
+}
+
+.jd_nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+.jd_pieces {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.jd_pieces>li {
+    float: left;
+    width: 25%;
+    /* justify-content: space-around; */
+    text-align: center;
+    margin: 10px 0;
+}
+
+.jd_pieces>li img {
+    width: 50%;
+}
+
+.jd_pieces>li p {
+    margin-top: 2px;
+    text-align: center;
+    color: rgb(129, 129, 129);
+    letter-spacing: 2px;
+}
+
+.jd_product {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.jd_productBox {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.jd_pTitle {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px;
+
+}
+
+.jd_left .jd_ms_icon {
+    width: 16px;
+    height: 20px;
+    background: url("../images/seckill-icon.png");
+    background-size: 16px 20px;
+    margin-top: 3px;
+}
+
+.jd_left .jd_ms_text {
+    color: red;
+    padding: 0 10px;
+}
+
+.jd_left .jd_ms_time {}
+
+.jd_left .jd_ms_time>span {
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    background-color: #000;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+.jd_left .jd_ms_time>span:nth-of-type(3n) {
+    background-color: rgba(255, 165, 0, 0);
+    color: #000;
+}
+
+.jd_right {
+    color: rgb(90, 90, 90);
+}
+
+
+.jd_pContent ul {
+    width: 100%;
+    text-align: center;
+    /* padding: 15px; */
+}
+
+.jd_pContent ul>li {
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+}
+
+.jd_pContent ul>li img {
+    width: 60%;
+}
+
+.jd_productBox>.jd_pTitle>h3 {
+    position: relative;
+    padding-left: 30px;
+}
+
+.jd_pTitle>h3::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 12px;
+    background-color: red;
+    left: 15px;
+    top: 9px;
+}
+
+.jd_pContent {
+    width: 100%;
+}
+
+.jd_pContent>a {
+    width: 50%;
+    display: block;
+}
+
+.jd_pContent>a>img {
+    width: 100%;
+    display: block;
+}
+
+.jd_pContent>a:nth-of-type(2) {
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.jd_pContent>a:nth-of-type(3) {
+    border-left: 1px solid #ccc;
+}

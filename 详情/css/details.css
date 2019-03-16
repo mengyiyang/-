@@ -1,0 +1,131 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.h {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background-color: #ddd;
+}
+
+.h_left,
+.h_right {
+    width: 50px;
+    height: 50px;
+    background: url("../images/sprites.png");
+    position: absolute;
+    top: 0;
+    background-size: 200px 200px;
+    background-origin: content-box;
+    background-clip: content-box;
+    padding: 13px;
+}
+
+.h_left {
+    left: 0;
+    background-position: -19px 0px;
+}
+
+.h_right {
+    right: 0;
+    background-position: -60px 0px;
+}
+
+.h_search {
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.h_search>input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+
+}
+
+.m {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+.m_left {
+    width: 100px;
+    height: 100%;
+    background-color: #ddd;
+    float: left;
+    overflow: hidden;
+}
+
+.m_left ul {
+    width: 100%;
+    height: 100%;
+
+}
+
+.m_left ul li {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+    /* border-collapse: collapse;   */
+    text-align: center;
+}
+
+.m_left ul li.active {
+    background-color: #fff;
+}
+
+.m_left ul li.active a {
+    color: #e92322;
+}
+
+.m_right {
+    /* width: 100%; */
+    height: 100%;
+    /* background-color: olivedrab; */
+    margin-left: 100px;
+}
+
+.m_right_hd {
+    width: 100%;
+    /* height: 94px; */
+    display: block;
+}
+
+.m_right_hd img {
+    width: 100%;
+    display: block;
+
+}
+
+.m_right ul {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.m_right ul li {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.m_right>ul li img {
+    width: 100%;
+    display: block;
+}
